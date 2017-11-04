@@ -9,8 +9,12 @@ Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, i
 + Resume playing after network error
 + Track statistics
 + Track raiting
++ Beautiful loading effects
 + Can be used for playing dayradio.ru stream or others standalone radio stations such as https://radiomaker.org/radiolistning on your own site.
 + easy to use
+
+# Demo
+http://dayradio.ru
 
 # License 
 Copyright (c) 2017 lubimki.ru, RCeFramework
