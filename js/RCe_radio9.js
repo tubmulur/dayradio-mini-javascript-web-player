@@ -1,4 +1,4 @@
-/*Copyright (c) 2017 lubimi.ru, RCeFramework
+/*Copyright (c) 2017 lubimki.ru HQ audio software, RCeFramework
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -9,7 +9,7 @@ furnished to do so, subject to the following conditions:
 
 Redestribution of source code must retain the above copyright notice:
 
-Created by lubimki.ru 2001-2017 with association with RCeFramework
+Created by lubimki.ru HQ audio software 2001-2017 with association with RCeFramework
 
 The above copyright notice and this permission notice shall be included in all
 copies or substantial portions of the Software.
