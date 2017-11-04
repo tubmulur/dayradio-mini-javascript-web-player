@@ -3,6 +3,8 @@ Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, i
 
 # Features 
 + Volume control
++ Streaming quality 128kbit/sec 256Kbit/sec selection
++ User flash messages
 + Light weight
 + Fast and cool
 + Hi crossplatform compatibility
