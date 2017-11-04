@@ -13,7 +13,7 @@ Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, i
 + easy to use
 
 # License 
-Copyright (c) 2017 lubimi.ru, RCeFramework
+Copyright (c) 2017 lubimki.ru, RCeFramework
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
