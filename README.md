@@ -7,6 +7,8 @@ Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, i
 + Hi playing stability
 + Audio flow control
 + Resume playing after network error
++ Track statistics
++ Track raiting
 + Can be used for playing dayradio.ru stream or others standalone on your own site.
 + easy to use
 
