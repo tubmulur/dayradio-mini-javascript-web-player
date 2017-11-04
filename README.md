@@ -2,12 +2,13 @@
 Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, iPad Mini, iPad Mini retina, Google Chrome, Feirefox, Opera, Internet Explorer.
 
 # Features 
-Volume control
-Hi crossplatform compatibility
-Hi playing stability
-Flow control
-Resume playing after network error
-Can be used for playing dayradio.ru stream or others standalone on your own site.
++ Volume control
++ Hi crossplatform compatibility
++ Hi playing stability
++ Audio flow control
++ Resume playing after network error
++ Can be used for playing dayradio.ru stream or others standalone on your own site.
++ easy to use
 
 # License 
 Copyright (c) 2017 lubimi.ru, RCeFramework
