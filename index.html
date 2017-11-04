@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="ru" class="no-js tubmulur">
 	<head>
@@ -8,16 +9,19 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
 		<meta name="viewport" content="width=360,maximum-scale=1.0">
 		<title>DayRadio.Ru</title>
-		<meta name="description" content="Really cool station" />
+		<meta name="description" content="Самая разнообразная станция на планете.!!" />
+		<meta name="keywords" content="У нас вы можете заказать выступление Dj, корпоратив, или полноценную, вечеринку с эксклюзивным оформлением." />
 		<meta name="author" content="Lubimki.Ru" />
 		<link rel="shortcut icon" href="../favicon.ico"> 
 		<link rel="stylesheet" type="text/css" href="css/style.css?12323" />
 		<script src="js/jquery.min.js?232"></script>
+		<script src="js/modernizr.custom.63321.js?132"></script>
 		<script src="js/cookie.js?2332"></script>
 		<script src="js/rceInput.js?2332"></script>
 		<script src="js/yariadom.js?2342"></script>
 		<script src="js/RCe_radio9.js?262"></script>
 		<link rel="stylesheet" type="text/css" href="css/normalize.css?155532" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css?1555322" />
 		<link rel="stylesheet" type="text/css" href="css/component.css?155532" />
 		<link rel="stylesheet" type="text/css" href="css/component2.css?155532" />
 		<link rel="stylesheet" type="text/css" href="css/station.css?1555321" />
@@ -29,26 +33,124 @@
 		<![endif]-->
 	</head>
 		<div class="overlay">
+			<div class="loading-text" style="color:#fff">Загружаем приложение</div>
 		</div>
-		<span class="button-128 selected">128kbps</span><span class="button-256 ">256kbps</span>
-		<div class="player">
+		
+		<div class="player" style="display: block;overflow: hidden;background-color: rgba(255, 255, 255, 0.91);	
+		<div class="controls block">
+			<span class="button-128 selected">128kbps</span><span class="button-256 ">256kbps</span>
+			<span style="width: 30%;overflow: hidden;float: left;">
+				<marquee direction="right" scrollamount="2" scrolldelay="10">Have a niсe day. Scroll this control right, to make volume higher. -> </marquee>
+				
+		
+		<div class="station block q-128" id="15">
+			<div class="volume block">
+				<input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
+	    		</div>
+			<div class="table abs" style="background-color: #fff;">
+				<div class="table-row">
+					<div class="table-cell">
+					<div class="radiocreatorP" onClick="radiocreatorP(15,false,128,`http://radiocreator.ru:6789/LDR.128.mp3`);"></div>
+					</div>
+					<div class="table-cell">
+						<author><b>Composer</b>:rendering...<button style="block right">More by author</button><button>+</button></author>
+					</div>
+					<div class="table-cell">
+						<trackName><b>Track ON-AIR</b>:rendering...<button>By now!</button><button>+</button></trackName>
+					</div>
+					<div class="table-cell">
+						<year><b>Year</b>:2017</year>
+					</div>
+					<div class="table-cell">
+						<dj><b>Dj</b>:Assminog, and others<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Producer</b>:Assminog<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Label</b>:DayRadio<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Adverticer</b>:DayRadio<button>Contact</button><button>+</button></dj>
+					</div>
+
+				</div>
+				<div class="table-row">
+					<div class="table-cell">
+						<radiovoice><b>Radiovoice</b>:Olga Filatova, Dj Assminog<button>Contact</button><button>+</button></radiovoice>
+					</div>
+					<div class="table-cell">
+						<soundDesigner><b>SoundDesigner</b>:Dj Assminog<button>Contact</button><button>+</button></soundDesigner>
+					</div>
+					<div class="table-cell">
+						<masteringEnjineer><b>Mastering enjineer</b>: searching for you...<button>Contact</button><button>+</button></masteringEnjineer>
+					</div>
+					<div class="table-cell">
+						<visualDesigner><b>VisualDesigner</b>:OlgaFilatova<button>Contact</button><button>+</button></visualDesigner>
+					</div>
+					<div class="table-cell">
+						<appDeveloper><b>Application developer</b>:RCeFramework, tubmulur<button>Contact</button><button>+</button></appDeveloper>
+					</div>
+				</div>
+			</div>
+		</div>
+						
+		
+		<div class="station blockhidden q-256" id="115">
+			<div class="volume block">
+				<input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
+	    		</div>
+			<div class="table abs" style="background-color: #fff;">
+				<div class="table-row">
+					<div class="table-cell">
+					<div class="radiocreatorP" onClick="radiocreatorP(115,false,256,`http://radiocreator.ru:6789/LDR.256.mp3`);"></div>
+					</div>
+					<div class="table-cell">
+						<author><b>Composer</b>:rendering...<button style="block right">More by author</button><button>+</button></author>
+					</div>
+					<div class="table-cell">
+						<trackName><b>Track ON-AIR</b>:rendering...<button>By now!</button><button>+</button></trackName>
+					</div>
+					<div class="table-cell">
+						<year><b>Year</b>:2017</year>
+					</div>
+					<div class="table-cell">
+						<dj><b>Dj</b>:Assminog, and others<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Producer</b>:Assminog<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Label</b>:DayRadio<button>Contact</button><button>+</button></dj>
+					</div>
+					<div class="table-cell">
+						<dj><b>Adverticer</b>:DayRadio<button>Contact</button><button>+</button></dj>
+					</div>
+
+				</div>
+				<div class="table-row">
+					<div class="table-cell">
+						<radiovoice><b>Radiovoice</b>:Olga Filatova, Dj Assminog<button>Contact</button><button>+</button></radiovoice>
+					</div>
+					<div class="table-cell">
+						<soundDesigner><b>SoundDesigner</b>:Dj Assminog<button>Contact</button><button>+</button></soundDesigner>
+					</div>
+					<div class="table-cell">
+						<masteringEnjineer><b>Mastering enjineer</b>: searching for you...<button>Contact</button><button>+</button></masteringEnjineer>
+					</div>
+					<div class="table-cell">
+						<visualDesigner><b>VisualDesigner</b>:OlgaFilatova<button>Contact</button><button>+</button></visualDesigner>
+					</div>
+					<div class="table-cell">
+						<appDeveloper><b>Application developer</b>:RCeFramework, tubmulur<button>Contact</button><button>+</button></appDeveloper>
+					</div>
+				</div>
+			</div>
+		</div>
+					</span>
+		</div>
 			
-		
-		<div class="station block  q-128" id="15">
-			<div class="volume block">
-				Громкость <input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
-	    		</div>
-			<div class="radiocreatorP" onClick="radiocreatorP(15,false,128,`http://radiocreator.ru:6789/LDR.128.mp3`);"></div>
-		</div>
-					
-		
-		<div class="station block hidden q-256" id="115">
-			<div class="volume block">
-				Громкость <input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
-	    		</div>
-			<div class="radiocreatorP" onClick="radiocreatorP(115,false,256,`http://radiocreator.ru:6789/LDR.256.mp3`);"></div>
-		</div>
-					<div id="vk_like"></div>
+			<div id="vk_like"></div>
 			<div rel="15" class="dj_message">Привет! Загружаем диджейские сообщения.............</div>
 		</div>
 		<div id="pagewrap" class="pagewrap salt-and-pepper">
@@ -76,16 +178,3 @@
 			<audio preload="auto" type="audio/mpeg"  id="radiocreatorP" ></audio>
 		</div>
 </html>
-<!--
-Copyright (c) 2017 lubimki.ru HQ audio software, RCeFramework
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-Redestribution of source code must retain the above copyright notice:
-
-Created by lubimki.ru HQ audio software 2001-2017 with association with RCeFramework
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
--->
