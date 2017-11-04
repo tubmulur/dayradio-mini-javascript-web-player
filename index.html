@@ -1,1 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js tubmulur">
+	<head>
+		<script type="text/javascript" src="//vk.com/js/api/openapi.js?124"></script>
 
+		<meta charset="UTF-8" />
+		
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+		<meta name="viewport" content="width=360,maximum-scale=1.0">
+		<title>DayRadio.Ru</title>
+		<meta name="description" content="Really cool station" />
+		<meta name="author" content="Lubimki.Ru" />
+		<link rel="shortcut icon" href="../favicon.ico"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css?12323" />
+		<script src="js/jquery.min.js?232"></script>
+		<script src="js/modernizr.custom.63321.js?132"></script>
+		<script src="js/cookie.js?2332"></script>
+		<script src="js/rceInput.js?2332"></script>
+		<script src="js/yariadom.js?2342"></script>
+		<script src="js/RCe_radio9.js?262"></script>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css?155532" />
+		<link rel="stylesheet" type="text/css" href="css/demo2.css?1555322" />
+		<link rel="stylesheet" type="text/css" href="css/component.css?155532" />
+		<link rel="stylesheet" type="text/css" href="css/component2.css?155532" />
+		<link rel="stylesheet" type="text/css" href="css/station.css?1555321" />
+
+		<script src="js/snap.svg-min.js"></script>
+		
+		<!--[if IE]>
+ 		<script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+		<![endif]-->
+	</head>
+		<div class="overlay">
+		</div>
+		<span class="button-128 selected">128kbps</span><span class="button-256 ">256kbps</span>
+		<div class="player">
+			
+		
+		<div class="station block  q-128" id="15">
+			<div class="volume block">
+				Громкость <input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
+	    		</div>
+			<div class="radiocreatorP" onClick="radiocreatorP(15,false,128,`http://radiocreator.ru:6789/LDR.128.mp3`);"></div>
+		</div>
+					
+		
+		<div class="station block hidden q-256" id="115">
+			<div class="volume block">
+				Громкость <input type="range" name="slider-1" class="vertical-volume-slider-small main-volume" id="mainVolume" min="0".00 max="1.00" step="0.01" value="0.8" title="Громкость" style="float:right;    -moz-box-sizing: content-box;    -webkit-appearance: caret;">
+	    		</div>
+			<div class="radiocreatorP" onClick="radiocreatorP(115,false,256,`http://radiocreator.ru:6789/LDR.256.mp3`);"></div>
+		</div>
+					<div id="vk_like"></div>
+			<div rel="15" class="dj_message">Привет! Загружаем диджейские сообщения.............</div>
+		</div>
+		<div id="pagewrap" class="pagewrap salt-and-pepper">
+		<div class="container show" id="page-1">
+			<div class="main">
+					<ul style="padding: 0;margin: 0;border: 1px solid #585858;border-radius: 12px;box-shadow: 1px 1px 21px 2px #020202;">
+						<li class="assminog-block" style="background-image: url(/images/dayradio.gif);background-size: 30%;"> 
+							<h1 style="background-color: azure;">DayRadio.Ru (SPB)</h1>
+							<h2> HQ </h2>
+							<br/>
+							
+							<hr/>
+							
+	
+							<hr/>
+							<iframe allowtransparency="" scrolling="no" src="https://ratecontrol.net/nowplay/nowplay.php?station_id=15&amp;user=guest&amp;size=1" style="margin-left: 4px;" frameborder="no" height="70" width="260">LastDayRadio</iframe>
+						</li>
+					</ul>
+			</div>
+			<div class="sacrifice">
+				<iframe src="https://money.yandex.ru/quickpay/shop-widget?writer=seller&targets=%D0%9F%D0%BE%D0%B4%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D1%82%D0%B5%20%D0%BD%D0%B0%D1%88%D1%83%20%D1%80%D0%B0%D0%B4%D0%B8%D0%BE%D1%81%D1%82%D0%B0%D0%BD%D1%86%D0%B8%D1%8E%20DayRadio.Ru&targets-hint=&default-sum=100&button-text=14&payment-type-choice=on&mobile-payment-type-choice=on&hint=&successURL=http%3A%2F%2Fdayradio.ru&quickpay=shop&account=410011484171599" width="450" height="213" frameborder="0" allowtransparency="true" scrolling="no"></iframe>
+			</div>
+		</div><!-- /container -->
+		<div class="radiocreator">
+			<audio preload="auto" type="audio/mpeg"  id="radiocreatorP" ></audio>
+		</div>
+</html>
+<!--
+Copyright (c) 2017 lubimki.ru HQ audio software, RCeFramework
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+Redestribution of source code must retain the above copyright notice:
+
+Created by lubimki.ru HQ audio software 2001-2017 with association with RCeFramework
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+-->
