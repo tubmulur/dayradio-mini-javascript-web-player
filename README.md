@@ -16,6 +16,8 @@ Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, i
 + Beautiful loading effects
 + Can be used for playing dayradio.ru stream or others standalone radio stations such as https://radiomaker.org/radiolistning on your own site.
 + Donation window with credit card sms and other payment methods
++ Vote line
++ Comment line
 + easy to use
 
 # Demo
