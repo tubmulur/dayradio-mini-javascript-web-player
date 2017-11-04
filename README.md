@@ -1,11 +1,11 @@
-# dayradio-mini-javascript-web-player
+# dayradio.ru-mini-javascript-web-player
 Mini javascript internet streaming player for iPhone5, iPhone6, iPhone7, iPad, iPad Mini, iPad Mini retina, Google Chrome, Feirefox, Opera, Internet Explorer.
-
-# License 
-Copyright (c) 2017 lubimi.ru, RCeFramework
 
 # Features 
 Hi playing stability
+
+# License 
+Copyright (c) 2017 lubimi.ru, RCeFramework
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
